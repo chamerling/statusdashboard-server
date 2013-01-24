@@ -13,7 +13,7 @@
       "host": "chamerling.org", 
       "port": 80,
       "path": "/"
-    },
+    }
   ],
   "plugins" : {
     "console" : {
