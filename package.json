@@ -1,0 +1,33 @@
+{
+  "name": "statusdashboard-server",
+  "version": "0.0.1",
+  "description": "Status Dashboard Server",
+  "author": "Christophe Hamerling <christophe.hamerling@gmail.com>",
+  "homepage": "http://github.com/chamerling/statusdashboard-server",
+  "keywords": [
+    "node"
+  ],
+  "maintainers": [{
+    "name": "Christophe Hamerling",
+    "email": "christophe.hamerling@gmail.com"
+  }],
+  "contributors": [],
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://mths.be/mit"
+  }],
+  "bugs": {
+    "url": "https://github.com/chamerling/statusdashboard-server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/chamerling/statusdashboard-server.git"
+  },
+  "engines": {
+    "node": ">0.8.x",
+    "npm": ">1.0.x"
+  },
+  "dependencies": {
+    "statusdashboard" : "git://github.com/obazoud/statusdashboard.git"
+  }
+}

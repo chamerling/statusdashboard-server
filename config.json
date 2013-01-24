@@ -1,0 +1,38 @@
+{
+  "title": "Platform Status Sample",
+  "hostname": "0.0.0.0",
+  "port": 8080,
+  "client": {
+    "transports": []
+  },
+  "services": [
+    {
+      "name": "BLOG", 
+      "label": "BLOG",
+      "check": "http",
+      "host": "chamerling.org", 
+      "port": 80,
+      "path": "/"
+    },
+  ],
+  "plugins" : {
+    "console" : {
+      "enable": false
+    },
+    "irc" : {
+      "enable": false,
+      "server": "irc.freenode.net",
+      "nick": "mystatusdashboardsample",
+      "options": {
+        "debug": false,
+        "channels": ["#mystatusdashboardsample"]
+      }
+    },
+    "heartbeat": {
+      "enable": true,
+      "period": 20000
+    }
+  },
+  "serviceInterval": 20000,
+  "serviceDelay": 500
+}
